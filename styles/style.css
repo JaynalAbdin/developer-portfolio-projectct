@@ -102,6 +102,7 @@ nav ul li a {
 
 main section {
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .main-header {
@@ -185,4 +186,26 @@ main section {
     color: #181818;
     font-size: 16px;
     font-weight: 400;
+}
+
+/* Resume section  */
+.resume-container {
+    display: flex;
+    gap: 24px;
+    padding: 20px;
+}
+
+.experience-subtitle {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.experience-description .experience-subtitle {
+    color: #757575;
+}
+
+.btn-text-center {
+    text-align: center;
+    margin-top: 20px;
 }
